@@ -1,0 +1,627 @@
+.hidden {
+  display: none;
+}
+
+body {
+  color: #072A40;
+  font-family: Gothic, Arial, sans-serif;
+  background-color: #F9F7F0;
+  margin: 0px;
+  width: 100%;
+  max-width: 100%;
+}
+
+p, ul{
+  font-size: 150%;
+}
+
+p{
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.home-content{
+  padding: 50px;
+}
+
+strong {
+  font-weight: bolder;
+}
+em {
+  font-style: italic;
+}
+
+
+nav {
+  font-weight: bold;
+  display: flex;
+  color: #F9F7F0;
+  background-color: #072A40;
+  justify-content: space-between;
+  border-bottom: 10px #18B7BE;
+
+  height: 60px;
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap;
+    max-width: 100%;
+}
+
+.column, ul.column {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+
+nav a, #why-were-here-toggle-button, #what-we-do-toggle-button{
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  padding-right: 20px;
+  font-size: 120%;
+}
+
+#why-were-here-toggle-button, #what-we-do-toggle-button{
+
+  background: none;
+  font-size: 120%;
+  border: 0px;
+  justify-content: center;
+  padding-left: 20px;
+
+}
+
+#toggle-what-we-do, #toggle-why-were-here {
+  margin-bottom: 0px;
+}
+
+.home {
+
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+}
+
+.home-content {
+  color: black;
+  line-height: 110%;
+  background-color: #58B6DC;
+  border-radius: 30px;
+  width: 40%;
+  box-shadow: 4px 4px #072A40
+  ;
+}
+.menuMobile {
+  display: none;
+}
+.menu {
+  margin: 0px;
+  min-width: 450px;
+}
+
+.menu li {
+  font-size: 80%;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+ul.menu {
+  display: flex;
+  align-items: baseline;
+}
+
+h1 {
+  text-align: center;
+  font-stretch: expanded;
+  font-size: 200%;
+  text-shadow: 1px 2px black;
+}
+
+ul.menu button {
+  justify-content: center;
+}
+nav {
+  font-weight: bold;
+  display: flex;
+  color: #F9F7F0;
+  padding-top:30px;
+  background-color: #072A40;
+  justify-content: space-between;
+  border-bottom: 10px #18B7BE;
+  padding: 30px;
+  padding-top: 17px;
+  margin-bottom: 40px;
+  height: 80px;
+  margin: auto;
+  margin-top: 0px;
+  list-style-type: none;
+  flex-direction: row;
+  align-items: baseline;
+  white-space: nowrap;
+    max-width: 100%;
+}
+
+/*color: #111c37;
+font-size: 300%;
+text-shadow: 2px 3px white;
+margin-top: 33%;
+margin-right: 47%;
+margin-bottom: 20%;
+margin: 5%;
+}*/
+
+.bold {
+  font-weight: bold;
+}
+
+/** welcome background image styling */
+
+.welcomeImg {
+
+display: flex;
+height: 650px;
+font-size: 220%;
+
+/* This decorative image is client-provided.*/
+background-image: url('homeBack.jpg');
+background-size: cover;
+background-position: center;
+width: 100%;
+max-width: 100%;
+max-height: 50%;
+color: white;
+}
+
+
+.welcomeImg h2 {
+text-align: center;
+
+color: white;
+ margin: 10%;
+ backface-visibility: hidden;
+font-size: 220%;
+ text-shadow: 2.5px 3px #062e18;
+}
+
+.menu {
+  font-size: 22px;
+  padding-left: 25px;
+  max-width: 100%;
+  width: auto;
+}
+
+#homeSlogan {
+  color: #072A40;
+  height: auto;
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 7%;
+  margin-left: 9%;
+  line-height: 120%;
+  font-style: oblique;
+  font-stretch: expanded;
+  font-size: 120%;
+  max-width: 100%;
+
+}
+
+.home-content{
+  margin: 3%;
+}
+
+li.dropDownMenu{
+
+    padding-left: 10px;
+  align-items: flex-start;
+  line-height: 50px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  text-shadow: 1px 1px grey;
+}
+#toggle-why-were-here, #toggle-what-we-do {
+
+  padding-left: 8px;
+  padding-top: 15px;
+  border-radius: 15px;
+  margin: 0px;
+  margin-right: 0px;
+  width: 200px;
+  font-size: 60%;
+  background-color: #072A40;
+}
+
+.dropDownMenu{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.tab-button {
+  font-size: 18px;
+  background-color: #f6efd5;
+  padding: 0.75em;
+  margin: 0.5em;
+  border: solid #f1cf53 1.5px;
+  border-radius: 10px;
+}
+
+.tab-button:hover{
+  background-color: #edda94;
+}
+
+.tab-button:active, .visited-button {
+  background-color: #f1cf53;
+}
+
+/*.sage-engagement-header:hover{
+  cursor:pointer;
+  text-shadow: 1px 1px 2px #131a36;
+}*/
+
+.sage-engagement-header{
+  padding-left: 50px;
+  border: 3px solid #072A40;
+  border-radius: 7px;
+  font-size: 170%;
+  margin: 3%;
+}
+
+#expeditions-content{
+  margin-bottom: 5%;
+}
+
+.sage-engagement-div{
+  margin: 3%;
+}
+
+.accordion-header{
+  padding-left: 15px;
+  font-size: 170%;
+  margin-left: 3%;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+.accordion{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sage-engagement-accordion-content{
+  margin-left: 5%;
+}
+
+.sage-engagement-list{
+  margin-top: 1%;
+  margin-left: 3%
+}
+
+.center-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+      margin-top: 30px;
+}
+
+#form-link {
+  font-size: 48px;
+  margin-top: 0.5em;
+  color: #29a9f1;
+  background-color: #aedbf5;
+  border: solid #29a9f1 5px;
+  border-radius: 15px;
+  padding: 0.5em;
+  justify-content: center;
+}
+
+figcaption {
+  font-size: 18px;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: center;
+  height: 650px;
+  font-size: 220%;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  max-width: 100%;
+  max-height: 50%;
+}
+
+.hero-img h2 {
+  text-align: center;
+  margin-top: 450px;
+  font-size: 220%;
+  color: white;
+  text-shadow: 3px 3px #072A40;
+  padding-bottom: 100px;
+
+}
+
+#sage-engagement-img {
+  /* This decorative image is client-provided.*/
+  background-image: url('sage-engagement.jpg');
+}
+
+#lets-connect-img {
+  /* This decorativecimage is client-provided.*/
+  background-image: url('lets-connect.jpg');
+}
+
+#intergenerational-action-img {
+  /* This decorative image is client-provided.*/
+  background-image: url('intergenerational-action.jpg');
+}
+
+#why-climate-sage-img {
+  /* This decorative image is client-provided.*/
+  background-image: url('why-climate-sage.jpg');
+}
+
+#why-sagehood-img{
+  /* This decorative image is client-provided.*/
+  background-image: url('why-sagehood.jpg');
+}
+
+#who-we-are-hero {
+  /* This decorative image is client-provided.*/
+  background-image: url('who-we-are-hero.jpg');
+}
+
+.dropdownTabs{
+display: flex;
+flex-direction: row;
+}
+
+.intergeneration-action-content{
+font-size: 200%;
+}
+
+.intergenerational-action-div{
+  margin: 3%;
+}
+
+.intergenerational-action-div p{
+  margin: 3%;
+}
+
+.image-adjacent-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-adjacent-text p {
+  font-size: 120%;
+}
+
+cite {
+  margin-left: 0.3em;
+}
+
+figcaption {
+  display: flex;
+  justify-content: center;
+}
+
+/*hamburger not mobiledesign */
+.hamburger {
+  display: none;
+
+}
+
+.page-content{
+  margin:3%;
+}
+.why-sagehood-list{
+  margin: 3%;
+}
+.why-sagehood-def{
+  font-size: 200%;
+  margin: 3%;
+}
+
+.nab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#what-we-do-toggle-button {
+  width: 200px;
+  padding-right: 0px;
+
+}
+
+#why-were-here-toggle-button:hover , #what-we-do-toggle-button:hover {
+  text-decoration: underline;
+  text-shadow: 1px 1px grey;
+  cursor: pointer;
+}
+
+
+/* media queries for responsive design */
+@media only screen and (max-width: 800px) {
+  .hero-img {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    max-width: 100%;
+    max-height: 50%;
+    color: #072A40;
+  }
+
+  .hero-img h2 {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    font-size: 100%;
+    margin-top: 27%;
+    /*margin-right: 100px;*/
+    /*margin-bottom: 60px;*/
+  }
+
+  .welcomeImg {
+    flex-direction: column;
+    height: 450px;
+  }
+
+  .welcomeImg h2 {
+    font-size: 130%;
+    text-align: left;
+  }
+
+  #homeSlogan {
+    font-size: 24px;
+    margin-left: 6em;
+    margin-right: 3em;
+    margin-top: 7em;
+  }
+
+  p {
+    font-size: 130%;
+  }
+
+  ul {
+    font-size: 130%;
+  }
+
+  .why-sagehood-def{
+    font-size: 150%;
+  }
+
+  .home {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-content {
+    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 60%;
+
+  }
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+  /*hamburger menu css */
+  .hamburger {
+    background:none;
+    position:absolute;
+    top:0;
+    right:0;
+    line-height:45px;
+    padding:5px 15px 0px 15px;
+    color: white;
+    border:0;
+    font-size:1.8em;
+    font-weight:bold;
+    cursor:pointer;
+    outline:none;
+    z-index:10000000000000;
+    display: contents;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .nab {
+    position: fixed;
+    left: -100%;
+    top: 3.5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow:
+        0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nab.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 1.5rem 0;
+  }
+
+  nav {
+    color: #072A40;
+  }
+
+  .logo {
+    color: #F9F7F0;
+  }
+
+  #deskNav {
+    display: none;
+  }
+
+  .menuMobile {
+    display: contents;
+  }
+  .stop-scroll {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .home {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-content {
+    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 60%;
+  }
+
+  .center-row {
+    display: block;
+  }
+
+  .center-row img {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  #link-for-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+}
